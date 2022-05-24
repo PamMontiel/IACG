@@ -6,7 +6,7 @@ import glob
 # Load the photos 
 def load_images():
   image_list = []
-  for filename in glob.glob('/content/gdrive/MyDrive/TESIS/Male_Faces/*.png'):
+  for filename in glob.glob('/IACG/male/*.png'):
     image_list.append(filename)
   return image_list
 
