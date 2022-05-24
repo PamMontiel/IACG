@@ -6,13 +6,13 @@ import glob
 # Load the photos 
 def load_images():
   image_list = []
-  for filename in glob.glob('main/IACG/male/*.png'):
+  for filename in glob.glob('pammontiel/iacg/main/male/*.png'):
     image_list.append(filename)
   return image_list
 
 def load_images_girls():
   image_list_girls = []
-  for filename in glob.glob('main/IACG/female/*.png'):
+  for filename in glob.glob('pammontiel/iacg/main/female/*.png''):
     image_list_girls.append(filename)
   return image_list_girls
 
