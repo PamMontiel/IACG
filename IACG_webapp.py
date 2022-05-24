@@ -12,7 +12,7 @@ def load_images():
 
 def load_images_girls():
   image_list_girls = []
-  for filename in glob.glob('pammontiel/iacg/main/female/*.png''):
+  for filename in glob.glob('pammontiel/iacg/main/female/*.png'):
     image_list_girls.append(filename)
   return image_list_girls
 
